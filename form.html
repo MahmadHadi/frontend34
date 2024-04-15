@@ -10,19 +10,19 @@
     <form action="img.html" method="get">
 
         <label for="name">Name: </label>
-        <input id="name" name="Name: " placeholder="Enter your name: " type="text">
+        <input id="name" name="Name: " placeholder="Enter your name: " type="text" required>
 
         <br>
         <br>
 
         <label for="pwd">Password: </label>
-        <input id="pwd" placeholder="password" name="pwd" type="password" >
+        <input id="pwd" placeholder="password" name="pwd" type="password" required>
 
         <br>
         <br>
 
         <label for="email">Email: </label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
 
         <br>
         <br>
@@ -37,9 +37,9 @@
         <br>
 
         <label for="Male" >Male</label>
-        <input type="radio" id="Male" name="gender">
+        <input type="radio" id="Male" name="gender"> 
         <label for="Female">Female</label>
-        <input type="radio" id="Female" name="gender">
+        <input type="radio" id="Female" name="gender" >
 
         <br>
         <br>
@@ -77,9 +77,26 @@
 
         <br>
         <br>
+        <label for="textarea">textarea </label>
+        <textarea name="textarea" id="textarea" cols="9" rows="5" placeholder="start from here ">write from here </textarea>
+        <br>
+        <br>
+
+        <label for="select">select </label>
+        <select name="select" id="select">
+            <option value="guj">Gujarati</option>
+            <option value="pan" selected>Panjabi</option>
+            <option value="item3" >item3</option>
+            <option value="item4" disabled>item4</option>
+            <option value="item5" >item5</option>
+        </select>
+
+        <br>
+        <br>
 
         <input type="submit" value="Submit">
         <input type="reset" value="Reset">
+        <button type="submit">submit  </button>
     </form>
 
 </body>

@@ -9,4 +9,4 @@
     opacity
     
     units -> px, %, rem, em, vh, vw, vmax, vmin
-font - font-family, letter-spacing, line-height, text-transform, text-decoration    
+    font - font-family, letter-spacing, line-height, text-transform, text-decoration

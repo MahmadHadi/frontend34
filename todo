@@ -1,8 +1,12 @@
-color
-bgcolor
-border - top, right, bottom, left
-border-radius - top, left, bottom, right
+    color
+    bgcolor
+    border - top, right, bottom, left
+    border-radius - top, left, bottom, right
 
-margin - top, right, bottom, left
-padding - top, right, bottom, left
+    margin - top, right, bottom, left
+    padding - top, right, bottom, left
 
+    opacity
+    
+    units -> px, %, rem, em, vh, vw, vmax, vmin
+font - font-family, letter-spacing, line-height, text-transform, text-decoration    

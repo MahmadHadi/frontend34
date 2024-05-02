@@ -11,6 +11,8 @@
     units -> px, %, rem, em, vh, vw, vmax, vmin
     font - font-family, letter-spacing, line-height, text-transform, text-decoration
 
-text-shadow
-box-shadow
-btn 
+    text-shadow
+    box-shadow
+    btn 
+
+d-flex 

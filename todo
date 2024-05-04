@@ -15,4 +15,9 @@
     box-shadow
     btn 
 
-d-flex 
+    d-flex 
+    block
+    inline-block 
+    grid 
+
+    positon 

@@ -1,0 +1,13 @@
+:root {
+    --height: 100px;
+    --bg-color: #ff0000;
+    --margin-10px: 10px;
+    --d-flex: flex;
+    --absolute: absolute;
+}
+.box {
+    height: var(--height);
+    background-color: var(--bg-color);
+    /* width: var(--height); */
+    width: calc(100% + 50px);
+}

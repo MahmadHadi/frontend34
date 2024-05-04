@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            /* align-items: center; */
+
+            /* justify-content: center; */
+            flex-direction: column;
+            height: 300vh;
+            width: 300vw;
+
+        }
+        
+        .container {
+            height: 90vh;
+            width: 90vw;
+            border: 1px solid black;
+
+            position: relative;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+        }
+        .box1 { 
+            background-color: crimson;
+            position: absolute;
+            top: 10%;
+            bottom: ;
+            left: 10%;
+            right: ;
+            z-index: 1;
+        }
+        .box2 {
+            background: lightcoral;
+            position: sticky;
+            margin-top: 10rem;
+            top: 100px;
+            left: 100px;
+        }
+        .box3 {
+            background: rgba(43, 249, 249, 0);
+            position: fixed;
+            top: 0;
+            left: 0px;
+            width: 100%;
+            /* z-index: -1; */
+        }
+    </style>
+    <!-- <div class="container">
+        <div class="box box1"></div>
+    </div> -->
+    <!-- <div class="box box2"></div> -->
+    <div style="height: 100px; width: 100%;">
+        <div class="box box3">
+            Lorem, ipsum.
+        </div>
+    </div>
+    <div class="div">
+        <img src="../img/img.jpg" alt="asdf " height="200px">
+    </div>
+</body>
+</html>

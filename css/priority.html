@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        * {
+            background-color: aqua;
+        }
+        div {
+            background-color: yellow;
+        }
+        .box1 {
+            background-color: green;
+        }
+        #box-id {
+            background-color: red;
+        }
+        .box {
+            background-color: crimson !important;
+        }
+        html,
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            background-color: white;
+        }
+        .box,
+        .div {
+            height: 100px;
+            width: 100px;
+        }
+        
+        .div { 
+            /* 5 + 7 = 12 */
+            background-color: red !important;
+        }
+        #div-id { 
+            /* 6 + 7 = 13 */
+            background-color: black !important;
+        }
+        
+        .d-flex {
+            display: flex;
+        }
+        .text-red {
+            color: red;
+        }
+        .bg-blue {
+            background-color: blue;
+        }
+    </style>
+    <div class="box box1 box2" id="box-id" style="background-color: black;">
+        <div class="inner-box"></div>
+    </div>
+
+    <div class="div" id="div-id">
+
+    </div>
+
+</body>
+</html>

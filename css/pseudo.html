@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <style>
+            body {
+                padding: 10rem;
+                background-color: #333;
+            }
+            .a1:link {
+                color: aliceblue;
+            }
+            .a1:visited {
+                color: yellow;
+            }
+            .a1:hover {
+                color: blue;
+            }
+            .a1:active {
+                color: crimson;
+            }
+
+            .box {
+                height: 100px;
+                width: 100px;
+                background-color: yellow;
+
+                /* transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: steps(5);
+            transition-delay: 1s; */
+            transition: border-radius 1s linear 0.5s;
+        }
+        .box:hover {
+                border-radius: 50%;
+                background-color: #fff;
+            }
+        </style>
+        <!-- <a href="#" class="a1">Click </a> -->
+        <div class="box"></div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+:root {
+    --primary-bg: #BBE1FA;
+    --primary-clr: #1B262C;
+    --primary-bg-nav: #3282B8;
+    --primary-bg-nav-hover: #0F4C75;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;   
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+

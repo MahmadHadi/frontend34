@@ -1,8 +1,9 @@
 home 
 -----------------
     https://yogawithsapna.com
-    
-    menu
+    header
+        logo
+        menu
     intruduction
         text
         image
@@ -13,7 +14,7 @@ home
     customer testimonials
     yoga video (surya namaskar)
     Join with us
-
+    footer
 About us
 -----------------------------------
 https://www.yogandsoul.com/about-us

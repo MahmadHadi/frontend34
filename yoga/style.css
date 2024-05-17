@@ -5,104 +5,151 @@
     font-size: 16px;
     box-sizing: border-box;
 }
+
 html,
 body {
     height: 100%;
-    width: 100%;   
+    width: 100%;
     line-height: 1.5;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 li {
     list-style: none;
 }
-header 
-{
+
+header {
     display: flex;
-    justify-content: space-between; /* horizintal alignment */
+    justify-content: space-between;
+    /* horizintal alignment */
     align-items: center;
 }
-.bg-menu 
-{
+
+.bg-menu {
     background-color: #E1ECE4;
 }
-header>nav 
-{
+
+.bg-menu>span {
+    display: flex;
+    align-items: center;
+}
+
+.site-heading {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+header>nav {
     padding-right: 20px;
 }
-header>nav>ul 
-{
+
+header>nav>ul {
     display: flex;
     gap: 20px;
     justify-content: end;
 }
-#introduction>article
-{
+
+#introduction>article {
     display: flex;
 }
-.topic-heading 
-{
+
+.topic-heading {
     font-size: 1.5rem;
     display: block;
 }
-.mt-1 
-{
+
+.mt-1 {
     margin-top: 20px;
 }
-.p-1 
-{
-    padding:20px;
+
+.p-1 {
+    padding: 20px;
 }
-.mr-1 
-{
+
+.mr-1 {
     margin-right: 20px;
 }
-.border-bottom 
-{
+
+.border-bottom {
     border-bottom: 1px solid black;
 }
-.text-justify
-{
+
+.text-justify {
     text-align: justify;
 }
-#whyyoga>span 
-{
+
+#whyyoga>span {
     display: flex;
     gap: 20px;
 }
-#whyyoga>span>article 
-{
+
+#whyyoga>span>article {
     margin-top: 20px;
     background-color: #E1ECE4;
-    padding:20px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#ebook
-{
+
+#ebook,
+#contactus {
     background-color: #797A7E;
     font-size: 1.2 rem;
-    color:white;
+    color: white;
 }
-#ebook>article 
-{
+
+#ebook>article {
     display: flex;
     justify-content: space-between;
 }
-#ebook>article>p 
-{
+
+#ebook>article>p {
     font-size: 1.5rem;
 }
-#ebook>article>a:link 
-{
+
+#ebook>article>a:link {
     background-color: white;
-    color:#797A7E !important;
-    width:200px;
+    color: #797A7E !important;
+    width: 200px;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     border-radius: 20px;
     text-transform: uppercase;
+}
+
+#testimonitals>span {
+    display: flex;
+    gap: 20px;
+}
+
+.blue-button {
+    background-color: darkviolet;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 5px;
+
+}
+
+.myinput {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#video {
+    text-align: center;
 }

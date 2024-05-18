@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font: inherit;
     font-size: 16px;
     box-sizing: border-box;
+    font-family:  "Montserrat", sans-serif;
 }
 
 html,
@@ -11,6 +14,8 @@ body {
     height: 100%;
     width: 100%;
     line-height: 1.5;
+    margin-top: 50px; /* Adjust this value based on the height of your header */
+
 }
 
 a {
@@ -31,8 +36,25 @@ header {
 
 .bg-menu {
     background-color: #E1ECE4;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;    
+    z-index: 1000; /* Ensure the menu stays above other content */
 }
-
+.bg-menu>nav>ul>li>a:link 
+{
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding:5px 10px;
+}
+.bg-menu>nav>ul>li>a:hover 
+{
+    background-color: #797A7E;
+    color:white;    
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 .bg-menu>span {
     display: flex;
     align-items: center;
@@ -41,6 +63,8 @@ header {
 .site-heading {
     font-size: 2rem;
     color: blueviolet;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
 }
 
 header>nav {
@@ -60,6 +84,8 @@ header>nav>ul {
 .topic-heading {
     font-size: 1.5rem;
     display: block;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
 }
 
 .mt-1 {
@@ -152,4 +178,24 @@ footer {
 
 #video {
     text-align: center;
+}
+.aboutus-article
+{
+    display: flex;
+    gap:20px;
+}
+#mission-vision
+{
+    display: flex;
+    gap: 20px;
+}
+#mission-vision>article
+{
+    background-color: #E1ECE4;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#mission-vision>article>ul>li
+{
+    line-height: 150%;
 }

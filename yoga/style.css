@@ -199,3 +199,52 @@ footer {
 {
     line-height: 150%;
 }
+#aboutus-topics
+{
+    display: flex;
+    gap: 20px;
+}
+#aboutus-topics>div
+{
+    padding:10px;
+    background-color: #eceae1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#aboutus-topics>div>p 
+{
+    text-align: justify;
+}
+.center-image
+{
+    display: block;
+    margin: auto;   
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.yoga-classes
+{
+    display: flex;
+    gap: 20px;
+}
+.yoga-classes>article
+{
+    background-color: #eceae1;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+}
+.yoga-classes>article:hover 
+{
+    background-color: #423e2a;
+    color:white;
+}
+#contactus
+{
+    padding:10px;
+    background-image: url('images/address.png');
+    background-repeat: no-repeat;
+    width: 605px;
+    margin: auto;
+}

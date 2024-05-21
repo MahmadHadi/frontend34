@@ -243,8 +243,14 @@ footer {
 #contactus
 {
     padding:10px;
-    background-image: url('images/address.png');
-    background-repeat: no-repeat;
-    width: 605px;
     margin: auto;
+    background-color: unset !important;
+}
+.black 
+{
+    color: #423e2a;
+}
+.address-image 
+{
+    height:300px;
 }

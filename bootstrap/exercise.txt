@@ -1,0 +1,8 @@
+1) create responsive page to display ipl teams 
+    4 teams one line for large screen
+    3 teams one line for medium screen
+    2 teams one line for small screen
+    1 teams one line for mobile screen
+
+display all 12 teams with names, home ground and captain and key player. 
+

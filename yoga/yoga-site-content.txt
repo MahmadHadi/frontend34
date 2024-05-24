@@ -1,0 +1,29 @@
+home 
+-----------------
+    https://yogawithsapna.com
+    header
+        logo
+        menu
+    intruduction
+        text
+        image
+    why learn yoga online
+
+    Yoga benefits
+    get free ebook
+    customer testimonials
+    yoga video (surya namaskar)
+    Join with us
+    footer
+About us
+-----------------------------------
+https://www.yogandsoul.com/about-us
+
+Yoga classes
+    https://www.yogandsoul.com/yoga-classes
+
+Blogs
+    https://www.doyogawithme.com/blog/yoga-rising-energies
+
+contact us 
+    https://yogawithsapna.com/contact/

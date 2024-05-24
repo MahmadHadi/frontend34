@@ -1,30 +1,256 @@
-:root {
-    --primary-bg: #BBE1FA;
-    --primary-clr: #1B262C;
-    --primary-bg-nav: #3282B8;
-    --primary-bg-nav-hover: #0F4C75;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font: inherit;
+    font-size: 16px;
     box-sizing: border-box;
+    font-family:  "Montserrat", sans-serif;
 }
+
 html,
 body {
     height: 100%;
-    width: 100%;   
+    width: 100%;
     line-height: 1.5;
+    margin-top: 50px; /* Adjust this value based on the height of your header */
+
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 li {
     list-style: none;
 }
-img {
-    display: block;
-    max-width: 100%;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* horizintal alignment */
+    align-items: center;
 }
 
+.bg-menu {
+    background-color: #E1ECE4;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;    
+    z-index: 1000; /* Ensure the menu stays above other content */
+}
+.bg-menu>nav>ul>li>a:link 
+{
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding:5px 10px;
+}
+.bg-menu>nav>ul>li>a:hover 
+{
+    background-color: #797A7E;
+    color:white;    
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.bg-menu>span {
+    display: flex;
+    align-items: center;
+}
+
+.site-heading {
+    font-size: 2rem;
+    color: blueviolet;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+
+header>nav {
+    padding-right: 20px;
+}
+
+header>nav>ul {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+#introduction>article {
+    display: flex;
+}
+
+.topic-heading {
+    font-size: 1.5rem;
+    display: block;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+
+.mt-1 {
+    margin-top: 20px;
+}
+
+.p-1 {
+    padding: 20px;
+}
+
+.mr-1 {
+    margin-right: 20px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#whyyoga>span {
+    display: flex;
+    gap: 20px;
+}
+
+#whyyoga>span>article {
+    margin-top: 20px;
+    background-color: #E1ECE4;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#ebook,
+#contactus {
+    background-color: #797A7E;
+    font-size: 1.2 rem;
+    color: white;
+}
+
+#ebook>article {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ebook>article>p {
+    font-size: 1.5rem;
+}
+
+#ebook>article>a:link {
+    background-color: white;
+    color: #797A7E !important;
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+#testimonitals>span {
+    display: flex;
+    gap: 20px;
+}
+
+.blue-button {
+    background-color: darkviolet;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 5px;
+
+}
+
+.myinput {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#video {
+    text-align: center;
+}
+.aboutus-article
+{
+    display: flex;
+    gap:20px;
+}
+#mission-vision
+{
+    display: flex;
+    gap: 20px;
+}
+#mission-vision>article
+{
+    background-color: #E1ECE4;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#mission-vision>article>ul>li
+{
+    line-height: 150%;
+}
+#aboutus-topics
+{
+    display: flex;
+    gap: 20px;
+}
+#aboutus-topics>div
+{
+    padding:10px;
+    background-color: #eceae1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#aboutus-topics>div>p 
+{
+    text-align: justify;
+}
+.center-image
+{
+    display: block;
+    margin: auto;   
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.yoga-classes
+{
+    display: flex;
+    gap: 20px;
+}
+.yoga-classes>article
+{
+    background-color: #eceae1;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+}
+.yoga-classes>article:hover 
+{
+    background-color: #423e2a;
+    color:white;
+}
+#contactus
+{
+    padding:10px;
+    margin: auto;
+    background-color: unset !important;
+}
+.black 
+{
+    color: #423e2a;
+}
+.address-image 
+{
+    height:300px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let age = parseInt(prompt("Enter your age : "));
+        // if (age <= 0) {
+        //     console.log("Invalid input ");
+        // }
+        
+        if (age > 0 && age <= 100) {
+            let flag = confirm("Are you Indian ? ");
+            if (age > 18 && flag) {
+                console.log("You can vote ");
+                } else {
+                    console.log("You cannot vote ");
+                    }
+        } else {
+            console.log("Invalid input ");
+        }
+    </script>
+</body>
+</html>

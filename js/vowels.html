@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let ch = prompt("Enter a char : ").toLowerCase();
+        // ch = ch.toLowerCase()
+
+        if (ch.charCodeAt(0) >= 97 && ch.charCodeAt(0) <= 122) {
+            if (ch.charAt(0) == 'a' || ch.charAt(0) == 'e' || ch.charAt(0) == 'i' || ch.charAt(0) == 'o' || ch.charAt(0) == 'u') 
+                console.log("Char is an vowel ");
+            else 
+                console.log("Char is an cosonant ");
+        } else {
+            console.log("Invalid input ");
+        }
+    </script>
+</body>
+</html>
+
+

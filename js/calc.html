@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let num1 = parseFloat(prompt("Enter number 1 : "));
+            let num2 = parseFloat(prompt("Enter number 2 : "));
+            // let opr = prompt("Enter operator : ").charAt(0);
+            let opr = prompt("Enter operator : ").charAt(0);
+
+            if (num2 != 0) {
+                switch (opr.toLowerCase()) {
+                    case "+":
+                        console.log(num1 + num2);
+                        break;
+                    case "-":
+                        console.log(num1 - num2);
+                        break;
+                    case "*":
+                        console.log(num1 * num2);
+                        break;
+                    case "/":
+                        console.log(num1 / num2);
+                        break;
+                    case "e":
+                        console.log(Math.pow(num1, num2));
+                        break;
+                    case ">":
+                        console.log(Math.max(num1, num2));
+                        break;
+                    case "<":
+                        console.log(Math.min(num1, num2));
+                        break;
+                    case "f": 
+                        console.log("Math.floor(num1) ", Math.floor(num1));
+                        console.log("Math.floor(num2) ", Math.floor(num2));
+                        break;
+                    case "r": 
+                        console.log( Math.floor(Math.random() * (num2  - num1)) + num1 + 1);
+                        break;
+                    default:
+                        console.log("Invalid input ");
+                        break;
+                }
+            } else {
+                console.log("Invalid input ");
+            }
+        </script>
+    </body>
+</html>
+
+<!-- +-*/ -->
